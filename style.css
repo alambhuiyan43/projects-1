@@ -1,0 +1,115 @@
+* {
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background-color: #ffffff;
+    color: #131313;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8%;
+    background-color: #FFF8F0;
+}
+
+.logo {
+    font-size: 24px;
+    width: 700px;
+    color: #131313;
+}
+.nav-links{
+    text-decoration: none;
+    color: #424242;
+    margin-left: 30px;
+    font-weight: 500px;
+     transition: color 0.3s ease;
+    
+}
+.nav-links a:hover{
+    color: #FF900E;
+}
+
+.nav-links a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hero-section{
+        background-color: #FFF8F0;
+    text-align: center;
+    padding: 40px 8% 80px 8%;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: 800px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #131313;
+}
+
+.hero-subtitle{
+    max-width: 700px;
+    margin: 0 auto 45px auto;
+    color: #727272;
+    font-size: 15px;
+}
+
+.hero-banner{
+  width: 100%;  
+  max-width: 1050px;
+  margin: 0 auto;
+  
+}
+
+
+
+/* Main Hero Image Layout */
+.visuals-container {
+    max-width: 1140px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.main-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.main-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Responsive Scaling for smaller viewports */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .nav a {
+        margin: 0 15px;
+    }
+
+    .hero-title {
+        font-size: 32px;
+    }
+
+    .hero-description {
+        padding: 0;
+    }
+}
